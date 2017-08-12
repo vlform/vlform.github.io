@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guide | vlForm </title>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+     <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/tooltip.css">
+    <link rel="stylesheet" href="css/page.css">
+  </head>
+  <body>
+    <div id="mobile-bar">
+            <a class="menu-button"></a>
+            <a class="logo" href="index.html">vlForm.js</a>
+        </div>
+    <div id="header">
+<a id="logo" href="index.html">
+<span>VlForm.js</span>
+</a>
+<ul id="nav">
+<li><a href="guide.html" class="nav-link current">Guide</a></li>
+<li><a href="example.html" class="nav-link">Examples</a></li>
+
+
+</ul>
+</div>
+<div class="tog-menu">
+<div class="sidebar">
+  <ul class="main-menu">
+<li><a href="guide.html" class="nav-link current">Guide</a></li>
+<li><a href="example.html" class="nav-link">Examples</a></li>
+      <div class="main_copy">
+   
+        <ul class="menu-root_copy">        
+        <li>
+            <a href="#vlRequired" class="sidebar-link">vlRequired</a>
+        </li>        
+        <li>
+            <a href="#vlsetMax" class="sidebar-link">vlsetMax</a>
+        </li>
+  
+        
+        <li>
+            <a href="#vlsetMin" class="sidebar-link">vlsetMin</a>
+        </li>
+                <li>
+            <a href="#vlCheckbox" class="sidebar-link">vlCheckbox</a>
+        </li>
+                <li>
+            <a href="#vlRadio" class="sidebar-link">vlRadio</a>
+        </li>
+                    <li>
+            <a href="#vlEmail" class="sidebar-link">vlEmail</a>
+        </li>
+                    <li>
+            <a href="#vlNumber" class="sidebar-link">vlNumber</a>
+        </li>
+                 <li>
+            <a href="#vlText" class="sidebar-link">vlText</a>
+        </li>
+                     <li>
+            <a href="#vlEqual" class="sidebar-link">vlEqual</a>
+        </li>
+                     <li>
+            <a href="#vlText" class="sidebar-link">vlText</a>
+        </li>
+                     <li>
+            <a href="#vlSelect" class="sidebar-link">vlSelect</a>
+        </li>
+                      <li>
+            <a href="#vlToolTip" class="sidebar-link">vlToolTip</a>
+        </li>
+
+
+          </ul>
+      </div>
+
+
+  </ul>
+</div>
+</div>
+      <div class="main">
+   
+        <ul class="menu-root">        
+        <li>
+            <a href="#vlRequired" class="sidebar-link">vlRequired</a>
+        </li>        
+        <li>
+            <a href="#vlsetMax" class="sidebar-link">vlsetMax</a>
+        </li>
+  
+        
+        <li>
+            <a href="#vlsetMin" class="sidebar-link">vlsetMin</a>
+        </li>
+                <li>
+            <a href="#vlCheckbox" class="sidebar-link">vlCheckbox</a>
+        </li>
+                <li>
+            <a href="#vlRadio" class="sidebar-link">vlRadio</a>
+        </li>
+                    <li>
+            <a href="#vlEmail" class="sidebar-link">vlEmail</a>
+        </li>
+                    <li>
+            <a href="#vlNumber" class="sidebar-link">vlNumber</a>
+        </li>
+                 <li>
+            <a href="#vlText" class="sidebar-link">vlText</a>
+        </li>
+                     <li>
+            <a href="#vlEqual" class="sidebar-link">vlEqual</a>
+        </li>
+                     <li>
+            <a href="#vlText" class="sidebar-link">vlText</a>
+        </li>
+                     <li>
+            <a href="#vlSelect" class="sidebar-link">vlSelect</a>
+        </li>
+                      <li>
+            <a href="#vlToolTip" class="sidebar-link">vlToolTip</a>
+        </li>
+
+
+          </ul>
+      </div>
+      <div id="hero">
+  <div class="inner">
+  <div class="right">
+   
+    </div>
+      <h1 class="installation" id="vlRequired">vlRequired</h1>
+ <p>VlRequired method is for validating text and email type. return error message  if the input value is empty</p>
+      <div class="code_tut">
+      <pre>
+      <code>
+      vlRequired("error message");
+      </code>
+      </pre>
+      </div>
+    <h1 class="installation" id="vlsetMax">vlsetMax
+   </h1>
+      <p>vlsetMax method set maxmium value of your Input. return false if value length is greater than the parameter.It has two parameter one is maximum value and another is error message.Fox Example if you want user to input their Name in seven letter but the user typed eight letter.When user submit the form and user get the error message.</p>
+  <div class="code_tut">
+      <pre>
+      <code>
+      vlsetMax(7,"error message");
+      </code>
+      </pre>
+      </div>
+      
+      <h1 class="installation" id="vlsetMin">vlsetMax
+   </h1>
+      <p>vlsetMax method set maxmium value of your Input. return false message  if value length is less than the parameter. </p>
+  <div class="code_tut">
+      <pre>
+      <code>
+      vlsetMin(1,"error message");
+      </code>
+      </pre>
+      </div>
+      
+       
+      
+               <h1 class="installation" id="vlCheckbox">vlCheckbox
+   </h1>
+      <p>vlCheckbox method validate the checkbox is checked or not. return fasle message  if not checked. </p>
+  <div class="code_tut">
+      <pre>
+      <code>
+      vlCheckbox("error message");
+      </code>
+      </pre>
+      </div>
+      
+                <h1 class="installation" id="vlRadio">vlRadio
+   </h1>
+      <p>vlRadiomethod  method validate the radio is checked or not. return false message if not checked. </p>
+  <div class="code_tut">
+      <pre>
+      <code>
+      vlRadio("error message");
+      </code>
+      </pre>
+      </div>
+     
+                      <h1 class="installation" id="vlEmail">vlEmail
+   </h1>
+      <p>vlEmail method validate the email. return false message  if input value is not a valid email. </p>
+  <div class="code_tut">
+      <pre>
+      <code>
+     vlEmail("error message");
+      </code>
+      </pre>
+      </div>
+                            <h1 class="installation" id="vlNumber">vlNumber
+   </h1>
+      <p>vlNumber method validate the number. return false message  if input value is not a Number. </p>
+  <div class="code_tut">
+      <pre>
+      <code>
+    vlNumber("error message");
+      </code>
+      </pre>
+      </div>
+                                 <h1 class="installation" id="vlText">vlText
+   </h1>
+      <p>vlText method validate the text. return false message  if input value is not a Text. </p>
+  <div class="code_tut">
+      <pre>
+      <code>
+    vlText("error message");
+      </code>
+      </pre>
+      </div>
+                                     <h1 class="installation" id="vlEqual">vlEqual
+   </h1>
+      <p>vlEqual method check the input value matches the other element.return false if retype password doesnot match parameter input value.</p>
+  <div class="code_tut">
+      <pre>
+      <code>
+    vlEqual(input to match value,"error message");
+      </code>
+      </pre>
+      </div>
+                                         <h1 class="installation" id="vlSelect">vlSelect
+   </h1>
+      <p>vlSelect method validate the option is selected or not.</p>
+  <div class="code_tut">
+      <pre>
+      <code>
+   vlSelect("error message");
+      </code>
+      </pre>
+      </div>
+                                             <h1 class="installation" id="vlToolTip">vlToolTip
+   </h1>
+      <p>vlToolTip method is additional method which helps you to show the tooltip when you hover over any elements.You can use it not only in the form validation or may be you can use it in form form giving a clue when user hover over the input section.<br/><strong>For using this tooltip you need to add css which can be found in download files inside the css place the tooltip css file in yout html. It's easy to use just with one line of js code and html you have to setup tooltip attribue let's try </strong></p>
+  <div class="code_tut">
+      <pre>
+      <code>
+  $('.text').vlToolTip({
+  position:"left"
+});
+      </code>
+      
+      </pre>
+      </div>
+      <p>In above Example you can see the JQuery code wich select the elements called text and vlToolTip is a method, and you can change the default position using postion which only  change to top,left and bottom. Now let's workk thro our html code.</p>
+       <div class="code_tut">
+      <pre>
+      <code>
+  &lt;p class="text" toolTip="We can see the magic of the toolTip"&gt;
+  <br/>
+  Hover me to see the magic of tooltip&lt;/p&gt;
+      </code>
+      
+      </pre>
+      </div>
+    
+      <p>In above example you can see the p tag which has the class of text and the attribue of tooltip and as we know now we need tooltip attribue to display the message or we can call it tooltip Now,it's time to see the output.</p>
+        <pre>
+      <p class="text" toolTip="We can see the magic of the tooltip">Hover me to see the tooltip</p>
+      </pre>
+          </div>
+      </div>
+    
+<div id="footer">
+
+ <p> Copyright &copy;2017 vlform.js Beta<br/>
+Create by : Aashish Bogati
+     Email: abbaashish23@gmail.com
+     </p>
+</div>
+ 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/vlform.min.js"></script>
+
+<script type="text/javascript" src="js/demo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example | vlForm </title>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+     <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/tooltip.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="mobile-bar">
+            <a class="menu-button"></a>
+            <a class="logo" href="index.html">vlForm.js</a>
+        </div>
+    <div id="header">
+<a id="logo" href="index.html">
+<span>VlForm.js</span>
+</a>
+<ul id="nav">
+<li><a href="guide.html" class="nav-link">Guide</a></li>
+<li><a href="example.html" class="nav-link current">Examples</a></li>
+
+
+</ul>
+</div>
+<div class="tog-menu">
+<div class="sidebar">
+  <ul class="main-menu">
+<li><a href="guide.html" class="nav-link">Guide</a></li>
+<li><a href="example.html" class="nav-link current">Examples</a></li>
+
+
+  </ul>
+</div>
+</div>
+      <div class="container">
+          
+          <h1>VlForm.js Full form validation Example</h1>
+          <form>
+      <div class="form-row">
+          <label for="username">Name</label>
+          <input type="text" tooltip="Username Contain a-z" id="username" value="">
+          </div>
+          <div class="form-row">
+              <label for="userage">Age</label>
+              <input type="text" tooltip="Username Contain only Number"  id="userAge" value=''>
+          </div>
+          <div class="form-row">
+              <label for ="email">Email</label>
+              <input type="text" tooltip="Email Contain a-z,number,@gmail.com or anything" id="email">
+          </div>
+          <div class="form-row">
+     <label for="password"> Password </label>
+<input type="password" name="password" class="form-control" id="password" />
+          </div>
+          <div class="form-row">
+          <label for="retype password"> ReType Password</label>
+<input type="password" name="re-password" class="form-control" id="re-password" />
+          </div>
+          <div class="form-row">
+          <label> Please Select  </label>
+
+<select class="form-control" id="select">
+ <option value="" selected>   Select </option>
+<option value="atoz"> 1 </option>
+  <option value="ztoa"> 2 </option>
+</select>
+          </div>
+          <div class="form-row ggg">
+              <input type="checkbox" name="checkbox" id="checkbox"> <span class="form-span" >Do you agree our Licence term & conditions </span>
+          </div>
+          <div class="form-row ggg">
+              <label for="gender"> Gender </label>
+              <input type="radio" name="gender" value="male"  class="gender"/> <span class="form-span"> Male </span>
+<input type="radio" name="gender" value="female"  class="gender"/> <span class="form-span"> Female </span>
+          </div>
+          <div class="form-row">
+              <button id="form">Submit</button>
+          </div>
+              </form>
+      </div>
+          
+ 
+   
+
+     
+      <div id="footer">
+
+ <p> Copyright &copy;2017 vlform.js Beta<br/>
+Create by : Aashish Bogati
+     Email: abbaashish23@gmail.com
+     </p>
+</div>
+ 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/vlform.min.js"></script>
+<script type="text/javascript" src="js/demo.js"></script>
+  </body>
+</html>
